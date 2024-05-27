@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 .heading {
     color: lightblue;
     background-color: #e7e5e5;
     text-align: center;
     font-weight: 800;
+    margin: 30px;
+    border: 2px solid lightblue;
 }
 
 h3 {
@@ -12,10 +17,70 @@ h3 {
     display: inline
 }
 
+.link, .homelink {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(231, 173, 173);
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid rgb(160, 160, 160);
+}
+
 #al {
     color: rgb(185, 185, 124);
+    border: 2px solid rgb(185, 185, 124);
 }
 
 #cb {
-    color: rgb(250, 193, 193)
+    color: rgb(250, 193, 193);
+    border: 2px solid rgb(250, 193, 193);
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.homelink {
+    background-color: rgb(181, 181, 255)
+}
+
+img {
+    background-color: rgb(19, 19, 19);
+    padding: 2px;
+    margin: 0 auto;
+    display: block;
+}
+
+.quo {
+    display: block;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-top:2px solid rgb(160, 160, 160, 0.8);
+    border-bottom:2px solid rgb(160, 160, 160, 0.8);
+    margin: 10px 5px;
+    font-family: "Merriweather", serif;
+}
+
+.l, .r {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(177, 170, 116);
+}
+
+.l {
+    margin: 0px 5px -20px;
+}
+
+.r {
+    margin: -10px 5px -10px;
+    text-align: right;
 }
